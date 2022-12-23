@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+    
+
+{% block title %}
+    Home
+{% endblock title %}
+
+
+{% block body %}
+        
+        <div class="container"><div class="video-header wrap">
+        
+            <div class="video-header wrap">
+                <video id="bgvid" loop muted autoplay poster="" style="position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -100; -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%);background-size: cover; transition: 1s opacity; opacity: 0.9;">
+                  <source src="/static/video/stock-footage-close-up-child-girl-greets-her-robot-friend-touching-each-other-foreheads-future-machine.webm" type="video/mp4">
+                </video>
+                <div class="video-text">
+                  <center><h1>Don't fear the technology</h1>
+                    <p>Try to use them</p>
+                    <hr>
+                    <h1>Relationship between Ai & Human</h1>
+                  </center>
+                      
+                </div>
+              </div>
+              
+    </div>
+{% endblock body %}
